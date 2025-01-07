@@ -79,7 +79,7 @@ Source: deeplearning.ai
 ## Key Components of AI Agent
 <ul>
   <li><b>Role:</b> Assign specialized role to agents</li>
-  <li><b>Memory:</b> Provide agents with short-term, long-term and entity memory</li>
+  <li><b>Memory:</b> Provide agents with short-term, long-term and entity memory. 即记忆分为3种，长期记忆、短期记忆、以及对实体的记忆，比如特斯拉这个实体指的是一家电动汽车公司</li>
   <li><b>Tools:</b> Assign pre-built and custom tools to each agent (eg. for web search)</li>
   <li><b>Focus:</b> Break down task, goals and tools and assign multiple AI agents for better performance</li>
   <li><b>Guardrails:</b> Effectively handle errors, hallucinations and infinite loops.</li>
@@ -318,6 +318,7 @@ Initial context fades away as tasks flows from agent to agent.
 Source: deeplearning.ai
 
 ### Advantages with Hierarchical Collaboration
+![alt text](hierarchical-collaboration.png)
 
 - Manager always remeber initial goal
 - Automatically delegates tasks
